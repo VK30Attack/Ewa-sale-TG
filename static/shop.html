@@ -8,22 +8,23 @@
     body {
       background: #000;
       color: #f69;
-      font-family: Arial, sans-serif;
+      font-family: 'Arial', sans-serif;
       margin: 0;
       padding: 10px;
     }
     h1 {
       text-align: center;
       margin-bottom: 20px;
+      font-size: 24px;
     }
     .grid {
       display: grid;
-      grid-template-columns: 1fr; /* один столбец на мобильном */
+      grid-template-columns: 1fr;
       gap: 15px;
     }
     @media (min-width: 600px) {
       .grid {
-        grid-template-columns: repeat(3, 1fr); /* три колонки на больших экранах */
+        grid-template-columns: repeat(3, 1fr);
       }
     }
     .card {
@@ -37,10 +38,10 @@
       text-align: center;
     }
     .card img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 10px;
+      width: 150px;
+      height: 150px;
       object-fit: cover;
+      border-radius: 10px;
     }
     .btn {
       margin-top: 8px;
@@ -61,31 +62,24 @@
     <div class="card">
       <img src="1.jpg" alt="BRAINSTORM (вишня)">
       <h3>BRAINSTORM (вишня)</h3>
-      <p>Формула для энергии и концентрации со вкусом вишни. Цена: 4990 ₽</p>
+      <p>Уникальный продукт с инновационной формулой на основе гриба ежовика с комплексом растительных ноотропов и адаптогенов, витаминов группы B и натуральными тонизирующими компонентами. Повышает внимание, улучшает память и работоспособность мозга. Цена: 4990 ₽</p>
       <a class="btn" href="https://ewaproduct.com/product/brainstorm-so-vkusom-vishni?purchase_ref_id=317833" target="_blank">Купить</a>
-      <a class="btn" href="#" target="_blank">PDF</a>
     </div>
 
     <!-- KEEP SMILE BRUSH PINK -->
     <div class="card">
       <img src="2.png" alt="KEEP SMILE BRUSH PINK">
       <h3>KEEP SMILE BRUSH PINK</h3>
-      <p>Розовая щетка — стильный аксессуар. Цена: 2990 ₽</p>
+      <p>Зубная щетка для взрослых средней жесткости. Стильный дизайн, мягкая щетина, подходит для ежедневного использования. Цена: 2990 ₽</p>
       <a class="btn" href="https://ewaproduct.com/product/keep-smile-pink?purchase_ref_id=317833" target="_blank">Купить</a>
-      <a class="btn" href="#" target="_blank">PDF</a>
     </div>
 
     <!-- NO STRESS -->
     <div class="card">
       <img src="3.jpg" alt="NO STRESS">
       <h3>NO STRESS</h3>
-      <p>Средство для расслабления. Цена: 3490 ₽</p>
+      <p>Инновационный продукт для эмоционального баланса и контроля над настроением на основе магния, пептидного ультрализата – естественного нейромедиатора и натуральных экстрактов. Помогает расслабиться и восстановить внутреннюю гармонию. Цена: 3490 ₽</p>
       <a class="btn" href="https://ewaproduct.com/product/no-stress?purchase_ref_id=317833" target="_blank">Купить</a>
-      <a class="btn" href="#" target="_blank">PDF</a>
-    </div>
-  </div>
-</body>
-</html>      <a class="btn" href="#" target="_blank">PDF</a>
     </div>
   </div>
 </body>
